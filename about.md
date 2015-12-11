@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am a Software Engineer at Influential Software, and I specialise in Java. I created this blog as a way of helping myself remember all the tricks and useful information I come across that I think could be useful to someone else (Or myself a short while later!).
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Before starting work as a Software Engineer, I completed a Bsc in Mathematics from the University of Plymouth. I realised that there must be a job where I can utilise the logical way of thinking that Maths has, and I found it!
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+You can find out more about me on [Github](https://github.com/lenny151) and on my [Website](https://lawrenceandrews.co.uk) (Currently under construction)

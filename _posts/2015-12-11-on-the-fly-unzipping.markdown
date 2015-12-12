@@ -3,6 +3,7 @@ layout: post
 title: "Saving space and time with on-the-fly unzipping"
 date: 2015-12-11 14:00:00 +0000
 categories: mysql unix
+comments: true
 ---
 
 Files are often delivered in a compressed format to save bandwidth. However, this means having to unzip/untar a file before being able to use it. This often results in leftover files hanging around taking up valuable space, as well as requiring 2 steps to complete an action rather than 1 (unzip followed by whatever you want to do with the file). With a bit of unix-foo, you can get both done in one step:

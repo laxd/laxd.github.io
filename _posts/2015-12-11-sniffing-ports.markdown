@@ -3,6 +3,7 @@ layout: post
 title: "Sniffing database ports for queries"
 date: 2015-12-11 13:00:00 +0000
 categories: mysql database
+comments: true
 ---
 
 Having a single line of bash that can be used to list incoming queries to a database can be invaluable, especially during development when using an ORM such as Hibernate with its own version of SQL. Personally, I find the greatest benefit of sniffing the port over enabling query logging is on production systems, where you may not be able to access the database instance to enable query logging, and even if you could, wouldn’t want to for performance reasons.

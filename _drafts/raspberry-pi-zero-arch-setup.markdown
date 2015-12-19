@@ -4,6 +4,9 @@ title: "Arch Linux Arm setup on a Raspberry Pi Zero"
 categories: raspberrypi
 ---
 
+Initial Setup
+-------------
+
 instructions for flashing the SD card can be found here:
 
 http://archlinuxarm.org/platforms/armv6/raspberry-pi
@@ -12,7 +15,7 @@ These instructions can't be followed from windows machines, so you need to eithe
 
 
 Enabling Wifi
----------------
+-------------
 
 When you first switch on your Pi0, you may be surprised to see that wifi is not enabled by default. This is due to the arch philosophy of being a simple system with the least amount of assumptions (not everyone will be using wifi). Enabling can be troublesome if you don't have a USB hub as there is only a single (micro) USB slot available. To make matters worse, the libraries required are not installed either, as evidenced when you first try to enable wifi and get a nasty error message telling you about the fact that wpa-supplicant is not installed.
 
@@ -44,4 +47,7 @@ wget http://os.archlinuxarm.org/armv6h/core/wpa_supplicant-1:2.5-1-armv6h.pkg.ta
 wget http://os.archlinuxarm.org/armv6h/core/wireless_tools-30.pre9-1-armv6h.pkg.tar.xz
 ```
 
-Copy these to the Pi and execute `pacman -U *.tar.xz` to install them.
+Copy these to the Pi and execute `pacman -U *.tar.xz` to install them. Once you've done this, you should be able to finish setting up your Wifi connection.
+
+Connecting to Wifi
+------------

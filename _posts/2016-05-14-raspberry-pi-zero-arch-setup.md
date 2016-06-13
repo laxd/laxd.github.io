@@ -4,17 +4,9 @@ title: "Arch Linux Arm setup on a Raspberry Pi Zero"
 categories: raspberrypi
 ---
 
-I was one of the lucky few to snag a Raspberry Pi 0
+If you're one of the lucky few to have gotten your hands on a raspberry pi0, you may have found that setting it up can be a bit of a hassle.
 
-Initial Setup
--------------
-
-instructions for flashing the SD card can be found here:
-
-http://archlinuxarm.org/platforms/armv6/raspberry-pi
-
-These instructions can't be followed from windows machines, so you need to either boot into a linux VM or flash the SD card from another raspberry pi if you don't have a linux PC hanging around.
-
+In particular, connecting to the internet can be challenging due to the OTG micro USB port as well as lacking an ethernet port.
 
 What Not To Do
 -------------

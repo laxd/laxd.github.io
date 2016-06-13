@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+- 2.2
+install: gem install jekyll
+script: jekyll build
+deploy:
+  provider: gcs
+  access_key_id: GOOG2WZNQNCRXGWU6ENU
+  secret_access_key:
+    secure: TRHFMnZ23Ae7xkIx/EYjNqQRg2sz/UwD1B4Fv8gYO2eTbn8bL6rA7PZirb3G9TyT0tvpUVaI260H8TeO9dQhq/CD+bGoXmK/IzNqLlfMUcRjeAHDtUa1c9uszxTtzi+BGEuH3mF6QayTYQS23nIvB9FjzICJ/7vLJ1hGpFcaHSEOSX17a87sLtGPGBCaZI3GFX0I1cI66LSFDue2ktl2eFG7iTjm8eud+4nmjzvC5VYf4jS6tihqZCvtY3w0/B3elTaBJ4fqNl508Fa8kyPSYGVbpbpiPXFT2s4tubohbJIfl89IwM/vPCMkw2c7FF+HSxEck+v9SuItMkoAvE7jKMpGtlAH0XX/iujSys/MGHHZqp6lQ/QJOIkdy0xM81iiQzdbtGP8fktzYa9vEA2TFlC+EPoplcCTVe+3wY2ca+PQr8SBKy4zS2JnziVL2dDwlQUOu7d8LuJwk5s9Xa+jLfhubqXZmlt9dcFrO3GzPvwTdx/IFkixxllvOuvxfXbjSa+XoKNBxm+iVYCSV1Kuuq2SYIBRB5cFvT1fqWQd43VNI778i52DxdbLsqoMcPoaelLF7gUVPLGji4yYUCrTZsIl3khIW+SBKM//zOPLkfE1j4xsZOfdzhfRmFBZ108AyE36HLS+dG4DXzem6OdcFVIqSGap6Lnv6d7qtB/4Da8=
+  bucket: blog-lawrenceandrews
+  local-dir: _site
+  on:
+    repo: lenny151/lenny151.github.io
